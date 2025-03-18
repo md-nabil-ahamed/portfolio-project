@@ -8,6 +8,9 @@
 }
 
 /* shear style */
+.secondary-bg{
+    background-color:  #FFF8F3;
+}
 .text-primary {
     color: #FD6E0A;
 }
@@ -33,6 +36,18 @@
     border-radius: 5px;
     border-style: none;
 
+}
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 135px;
+}
+.section-description{
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight:normal ;
+    text-align: center;
 }
 
 /* header */
@@ -101,4 +116,34 @@ nav ul a {
 .banner-content {
     max-width: 585;
     margin: 0px 35px 0px 200px;
+}
+
+/* main styling */
+main{
+    max-width: 1440px;
+    margin: 0px auto;
+}
+
+/* about styling */
+.about{
+    margin-top: 130px;
+    border-radius: 10px;
+    padding: 130px 156px;    
+  
+
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.item-title{
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+}
+.item-description{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
 }
