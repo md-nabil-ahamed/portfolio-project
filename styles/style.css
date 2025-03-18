@@ -15,7 +15,7 @@
     color: #FD6E0A;
 }
 
-.dark- {
+.dark-1 {
     color: #181818;
 }
 
@@ -49,7 +49,9 @@
     font-weight:normal ;
     text-align: center;
 }
-
+.text-center{
+    text-align: center;
+}
 /* header */
 .header {
     background-image: url(../images/developer.png), url(../images/header_bg.png);
@@ -123,16 +125,21 @@ main{
     max-width: 1440px;
     margin: 0px auto;
 }
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
 
 /* about styling */
 .about{
-    margin-top: 130px;
+ 
     border-radius: 10px;
     padding: 130px 156px;    
   
 
 }
 .about-items{
+    
     display: flex;
     justify-content: space-around;
     
@@ -146,4 +153,87 @@ main{
     font-size: 30px;
     font-weight: 700;
     text-align: center;
+}
+
+/* styling Skills */
+.skill-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+}
+.skill{
+    padding: 30px;
+    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+
+}
+.skill-title{
+    font-size: 20px;
+    font-weight: 700;
+}
+.skill-description{
+    font-size: 16px;
+}
+
+/* redume styling */
+
+.educatio-experience-container{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 24px;
+    align-items: center;
+}
+.experiene{
+   text-align: justify;
+}
+.resume-title{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+.education-column-title, .experiene-column-title{
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+
+}
+.experiene-title, .education-title{
+    font-size: 25px;
+    font-weight: 700;
+    color: #474747;
+}
+.education-subtitle, .experiene-subtitle{
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+}
+.educatin-description, .experiene-description{
+    font-size: 16px;
+    font-weight: normal;
+    color: #757575;
+}
+/* footer styling */
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 130px;
+}
+.footer-column{
+    width: 50%;
+}
+footer input[type="text" ], input[type="email"], textarea{
+    display: block;
+    height: 64px;
+    width: 100%;
+    padding: 18px;
+    margin-bottom: 24px;
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(117, 117, 117, 1);
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+}
+footer textarea{
+    height: 180px;
 }
